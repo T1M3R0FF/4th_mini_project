@@ -77,7 +77,7 @@ def decipher_ru():
                 print(chr(ord(s[i]) - step), end='')
         elif s[i] in ru_alphabet2:
             if ord(s[i]) - step < ord('а'):
-                print(chr(32 + ord(s[i]) - step), end='')
+                print(chr(33 + ord(s[i]) - step), end='')
             else:
                 print(chr(ord(s[i]) - step), end='')
 
